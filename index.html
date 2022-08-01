@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./assets/script.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <section id="Costume">
+   <h1 class="title_">Calculadora</h1>
+   
+  <form class="title_">
+    <input type="text" placeholder="Digite um Numero" id="number1"></input>
+    <input type="text" placeholder="Digite um Numero" id="number2"></input>  
+</form>
+    <div class="cal">
+        <button class="operadores" id="somar" value="Enviar" onclick="Soma()">Somar +</button>
+        <div class="operadores" onclick="diminuir()">Diminuir</div>
+        <div class="operadores"onclick="multiplicar()">Multiplicar x</div>
+        <div class="operadores" onclick="dividir()">Dividir /</div>
+    </div>
+    <button class="resultClean" onclick="remover()">Limpar Resultado</button>
+</section>
+</body>
+
+</html>
